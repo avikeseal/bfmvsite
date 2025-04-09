@@ -48,6 +48,10 @@ ul {
 
 }
 
+.logo-wrapper {
+    position: fixed;
+}
+
 .logo {
     display: block;
     max-width: 200px;
