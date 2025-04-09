@@ -37,6 +37,7 @@ nav {
 }
 
 ul {
+    background-color: red;
     display: flex;
     list-style: none;
     overflow: hidden;
@@ -86,4 +87,5 @@ ul {
     font-size: 1.25rem;
     color: var(--color-medium-gray);
 }
+
 
