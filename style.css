@@ -31,8 +31,8 @@ body {
 
 nav {
     display: flex;
-    padding: 4rem 4rem;
     flex-direction: column;
+    padding: 4rem 4rem;
     align-items: center;
 }
 
@@ -49,9 +49,6 @@ ul {
 
 }
 
-.logo-wrapper {
-    position: fixed;
-}
 
 .logo {
     display: block;
