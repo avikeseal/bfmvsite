@@ -36,6 +36,11 @@ nav {
     align-items: center;
 }
 
+.container {
+    position: fixed;
+
+}
+
 ul {
     background-color: red;
     display: flex;
@@ -48,8 +53,6 @@ ul {
     margin: 3rem;
 
 }
-
-
 
 .logo {
     display: block;
