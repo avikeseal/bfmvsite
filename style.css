@@ -34,10 +34,12 @@ nav {
     flex-direction: column;
     padding: 4rem 4rem;
     align-items: center;
+    overflow: hidden;
 }
 
 .nav-container {
     position: fixed;
+    width: 100%;
 
 }
 
@@ -50,9 +52,12 @@ ul {
     align-items: center;
     gap: 20rem;
     padding: 0;
-    margin: 3rem;
+    margin: 2.8rem;
 
 }
+ .logo-wrapper {
+    position: fixed;
+ }
 
 .logo {
     display: block;
@@ -61,6 +66,9 @@ ul {
     text-align: center;
 }
 
+main {
+    background-color: blueviolet;
+}
 .hero {
     height: 90vh;
     display: flex;
