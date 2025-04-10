@@ -37,6 +37,13 @@ nav {
     overflow: hidden;
 }
 
+.nav-container {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: cyan;
+}
+
 ul {
     background-color: white;
     display: flex;
@@ -54,34 +61,6 @@ ul {
     max-width: 200px;
     margin: 0 auto;
     text-align: center;
-}
-
-.hero {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-deep-gray); /* fallback stage floor */
-    color: var(--color-light-gray);
-    text-align: center;
-    padding: 2rem;
-}
-
-.hero-content {
-    max-width: 800px;
-}
-
-.hero h1 {
-    font-family: var(--font-cursive);
-    font-size: 4rem;
-    color: var(--color-grunge-yellow);
-    margin-bottom: 1rem;
-}
-
-.hero p {
-    font-family: var(--font-sans);
-    font-size: 1.25rem;
-    color: var(--color-medium-gray);
 }
 
 .section-wrapper {
