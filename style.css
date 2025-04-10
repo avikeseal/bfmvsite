@@ -37,14 +37,8 @@ nav {
     overflow: hidden;
 }
 
-.nav-container {
-    position: fixed;
-    width: 100%;
-
-}
-
 ul {
-    background-color: red;
+    background-color: white;
     display: flex;
     list-style: none;
     overflow: hidden;
@@ -53,11 +47,7 @@ ul {
     gap: 20rem;
     padding: 0;
     margin: 2.8rem;
-
 }
- .logo-wrapper {
-    position: fixed;
- }
 
 .logo {
     display: block;
@@ -66,9 +56,6 @@ ul {
     text-align: center;
 }
 
-main {
-    background-color: blueviolet;
-}
 .hero {
     height: 90vh;
     display: flex;
@@ -96,3 +83,4 @@ main {
     font-size: 1.25rem;
     color: var(--color-medium-gray);
 }
+
