@@ -84,7 +84,26 @@ ul {
     color: var(--color-medium-gray);
 }
 
-.container {
-    max-width: 800px;
+.section-wrapper {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-deep-gray); /* fallback stage floor */
+    color: var(--color-light-gray);
+    text-align: center;
+    padding: 2rem;
 }
 
+.hero-container h1 {
+    font-family: var(--font-cursive);
+    font-size: 4rem;
+    color: var(--color-grunge-yellow);
+    margin-bottom: 1rem;
+}
+
+.hero-container p {
+    font-family: var(--font-sans);
+    font-size: 1.25rem;
+    color: var(--color-medium-gray)
+}
