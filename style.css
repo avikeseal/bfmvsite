@@ -29,23 +29,21 @@ body {
     line-height: inherit;
 }
 
+header {
+    background: crimson;
+}
+
 nav {
     display: flex;
     flex-direction: column;
-    padding: 4rem 4rem;
+    padding: 3rem;
     align-items: center;
     overflow: hidden;
 }
 
-.nav-container {
-    position: sticky;
-    top: 0;
-    overflow: hidden;
-    background-color: cyan;
-}
+
 
 ul {
-    background-color: white;
     display: flex;
     list-style: none;
     overflow: hidden;
