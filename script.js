@@ -19,7 +19,7 @@ window.addEventListener("scroll", function(){
 
 removeElementOnScroll("logo", 100);*/
 
-function toggleElementOnScroll(elementId, scrollThreshold) {
+/*function toggleElementOnScroll(elementId, scrollThreshold) {
     window.addEventListener("scroll", function() {
         const element = document.getElementById(elementId);
         if (!element) return;
@@ -29,6 +29,26 @@ function toggleElementOnScroll(elementId, scrollThreshold) {
         } else {
             element.style.display = "block";
         }
+    });
+}
+
+toggleElementOnScroll("logo", 100);*/
+
+function toggleElementOnScroll(elementId, scrollThreshold) {
+    window.addEventListener("scroll", function() {
+        const element = document.getElementById(elementId);
+        if (!element) return;
+
+        if (window.scrollY > scrollThreshold) {
+            element.style.opacity = "0";
+            element.style.visibility = "hidden";
+            element.style.transition = "opacity 0.3s ease";
+        } else {
+            element.style.opacity = "1";
+            element.style.visibility = "visible";
+            element.style.transition = "opacity 0.3s ease";
+        }
+
     });
 }
 

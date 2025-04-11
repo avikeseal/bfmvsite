@@ -67,6 +67,10 @@ ul {
     margin: 2.8rem;
 }
 
+#logo {
+    transition: opacity 0.3s ease;
+}
+
 .logo {
     display: block;
     max-width: 200px;
