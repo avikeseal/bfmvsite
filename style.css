@@ -47,9 +47,11 @@ nav {
 }
 
 .sticky {
-    padding: 5px 100px;
+    padding: 5px 80px;
     background-color: red;
 }
+
+
 
 .navbar {
     max-width: 100%;
