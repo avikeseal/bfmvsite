@@ -30,8 +30,15 @@ body {
 }
 
 header {
-    background: crimson;
+    position: fixed;
+    width: 100%;
 }
+
+.sticky {
+    padding: 5px 100px;
+    background-color: red;
+}
+
 
 nav {
     display: flex;
@@ -41,6 +48,9 @@ nav {
     overflow: hidden;
 }
 
+.navbar {
+    max-width: 100%;
+}
 
 
 ul {
