@@ -54,5 +54,4 @@ function toggleElementOnScroll(elementId, scrollThreshold) {
 
 toggleElementOnScroll("logo", 100);
 
-kfnienfkndnkfnnfdnin
 
