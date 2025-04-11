@@ -42,16 +42,16 @@ function toggleElementOnScroll(elementId, scrollThreshold) {
         if (window.scrollY > scrollThreshold) {
             element.style.opacity = "0";
             element.style.visibility = "hidden";
-            element.style.transition = "opacity 0.3s ease";
+            element.style.transition = "opacity 0.6s ease";
         } else {
             element.style.opacity = "1";
             element.style.visibility = "visible";
-            element.style.transition = "opacity 0.3s ease";
+            element.style.transition = "opacity 0.6s ease-in 0.2s";
         }
 
     });
 }
 
-toggleElementOnScroll("logo", 100);
+toggleElementOnScroll("logo", 10);
 
 

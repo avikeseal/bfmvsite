@@ -68,7 +68,7 @@ ul {
 }
 
 #logo {
-    transition: opacity 0.3s ease;
+    transition: opacity 0.6s ease-in 0.2s;
 }
 
 .logo {
