@@ -49,6 +49,7 @@ nav {
 .sticky {
     padding: 5px 80px;
     background: red;
+    transition: 0.1s ease-in;
 }
 
 .navbar {
