@@ -83,7 +83,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-deep-gray); /* fallback stage floor */
     color: var(--color-light-gray);
     text-align: center;
     padding: 2rem;
