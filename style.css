@@ -66,6 +66,7 @@ ul {
     gap: 20rem;
     padding: 0;
     margin: 2.8rem;
+    transform: translateY(8px);
 }
 
 #logo {

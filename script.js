@@ -34,7 +34,7 @@ removeElementOnScroll("logo", 100);*/
 
 toggleElementOnScroll("logo", 100);*/
 
-function toggleElementOnScroll(elementId, scrollThreshold) {
+/*function toggleElementOnScroll(elementId, scrollThreshold) {
     window.addEventListener("scroll", function() {
         const element = document.getElementById(elementId);
         if (!element) return;
@@ -52,6 +52,43 @@ function toggleElementOnScroll(elementId, scrollThreshold) {
     });
 }
 
-toggleElementOnScroll("logo", 10);
+
+toggleElementOnScroll("logo", 10);*/
 
 
+function toggleElementOnScroll(elementId, scrollThreshold, scrollStyles, topStyles)
+ {
+    window.addEventListener("scroll", function () {
+        const element = document. getElementById(elementId);
+        if (!element) return;
+
+        const isScrolled = window.scrollY > scrollThreshold;
+        const styles = isScrolled ? scrollStyles : topStyles;
+        Object.assign(element.style, styles);
+    });
+ }
+
+ toggleElementOnScroll("logo", 10,
+ {
+    opacity: "0",
+    visibility: "hidden",
+    transition: "opacity 0.6s ease"
+ },
+ {
+    opacity: "1",
+    visibility: "visible",
+    transition: "opacity 0.6s ease-in 0.2s"
+ }
+);
+
+toggleElementOnScroll("nav-links", 10,
+    {
+        margin: "1.5rem",
+        transform: "translateY(-8px)",
+
+    },
+    {
+        margin: "2.8rem",
+        transform: "translateY(8px)",
+    }
+);
