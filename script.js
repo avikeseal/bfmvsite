@@ -60,7 +60,7 @@ toggleElementOnScroll("logo", 10);*/
 window.addEventListener("scroll", function(){
     //grabs the first nav element on the page and stores it in the 
     //nav variable 
-    var nav = document.querySelector("nav");
+    var nav = document.querySelector("header");
     //toggles the sticky class on the nav element on the page
     //if the page has been scrolled down from the top:
     nav.classList.toggle("sticky", this.window.scrollY > 0)
@@ -113,12 +113,21 @@ function toggleElementOnScroll(elementId, scrollThreshold, scrollStyles, topStyl
 //movement to being the links closer together or float them subtly
 toggleElementOnScroll("nav-links", 10,
     {
-        margin: "1.5rem",
+        margin: "1rem",
         transform: "translateY(-8px)",
 
     },
     {
-        margin: "2.8rem",
+        margin: "2.5rem",
         transform: "translateY(8px)",
+    }
+);
+
+toggleElementOnScroll("navbar", 10,
+    {
+        padding: "1rem",
+    },
+    {
+        padding: "3rem",
     }
 );

@@ -36,6 +36,7 @@ header {
 
 
 nav {
+    top:0;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -45,9 +46,9 @@ nav {
 }
 
 .sticky {
-    padding: 5px 80px;
+    position: fixed;
     background: red;
-    transition: 0.1s ease-in;
+    transition: 0.2s ease-in;
 }
 
 
@@ -59,7 +60,7 @@ ul {
     align-items: center;
     gap: 20rem;
     padding: 0;
-    margin: 2.8rem;
+    margin: 2.5rem;
     transform: translateY(8px);
 }
 
