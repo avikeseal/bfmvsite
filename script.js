@@ -50,6 +50,9 @@ toggleElementOnScroll("logo", 100);*/
 }
 
 
+
+
+
 toggleElementOnScroll("logo", 10);*/
 
 //adds an event litener to the window object that listens for when the user 
@@ -119,4 +122,3 @@ toggleElementOnScroll("nav-links", 10,
         transform: "translateY(8px)",
     }
 );
-
