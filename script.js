@@ -97,14 +97,16 @@ function toggleElementOnScroll(elementId, scrollThreshold, scrollStyles, topStyl
  //when back to the top, the logo fades back in
  toggleElementOnScroll("logo", 10,
  {
+    display: "none",
     opacity: "0",
     visibility: "hidden",
     transition: "opacity 0.6s ease",
  },
  {
+    display: "block",
     opacity: "1",
     visibility: "visible",
-    transition: "opacity 0.6s ease-in 0.2s"
+    transition: "opacity 1s ease-in 0.8s"
  }
 );
 
@@ -113,8 +115,8 @@ function toggleElementOnScroll(elementId, scrollThreshold, scrollStyles, topStyl
 //movement to being the links closer together or float them subtly
 toggleElementOnScroll("nav-links", 10,
     {
-        margin: "0.5rem",
-        transform: "translateY(-8px)",
+        margin: "0.6rem",
+        transform: "translateY(-5px)",
 
     },
     {
@@ -125,9 +127,9 @@ toggleElementOnScroll("nav-links", 10,
 
 toggleElementOnScroll("navbar", 10,
     {
-        padding: "0.2rem",
+        padding: "1rem",
     },
     {
-        padding: "0.8rem",
+        padding: "2rem",
     }
 );
