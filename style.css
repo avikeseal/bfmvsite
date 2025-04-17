@@ -19,6 +19,27 @@ Deep Gray: hsl(353, 6, 28)
 
 */
 
+:root {
+    --ff-sans: 'Poppins', sans-serif;
+    --fw-light: 200;
+    --fw-normal: 400;
+    --fw-bold: 600;
+
+    --fs-400: 0.927rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.625rem;
+    --fs-900: 2.5rem;
+
+    --clr-neutralLG: hsl(22, 6, 76);
+    --clr-neutralMG: hsl(17, 4, 65);
+    --clr-neutralDG: hsl(353, 6, 28);
+    --clr-primaryBR: hsl(355, 66, 38);
+    --clr-primaryBlack: hsl(150, 100, 0);
+    --clr-primaryGY: hsl(49, 16, 53);
+
+
+}
+
 * {
     margin: 0;
     padding: 0;
