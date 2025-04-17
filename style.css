@@ -41,7 +41,7 @@ nav {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 0.8rem;
     align-items: center;
     overflow: hidden;
 }
@@ -87,9 +87,12 @@ ul {
 }
 
 .hero-container {
-    background-image: url(images/hero-image.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/hero-image.jpg);
     height: 90vh;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*.hero-container h1 {

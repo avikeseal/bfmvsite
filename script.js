@@ -99,7 +99,7 @@ function toggleElementOnScroll(elementId, scrollThreshold, scrollStyles, topStyl
  {
     opacity: "0",
     visibility: "hidden",
-    transition: "opacity 0.6s ease"
+    transition: "opacity 0.6s ease",
  },
  {
     opacity: "1",
@@ -113,7 +113,7 @@ function toggleElementOnScroll(elementId, scrollThreshold, scrollStyles, topStyl
 //movement to being the links closer together or float them subtly
 toggleElementOnScroll("nav-links", 10,
     {
-        margin: "1rem",
+        margin: "0.5rem",
         transform: "translateY(-8px)",
 
     },
@@ -125,9 +125,9 @@ toggleElementOnScroll("nav-links", 10,
 
 toggleElementOnScroll("navbar", 10,
     {
-        padding: "1rem",
+        padding: "0.2rem",
     },
     {
-        padding: "3rem",
+        padding: "0.8rem",
     }
 );
