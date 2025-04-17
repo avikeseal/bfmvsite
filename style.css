@@ -30,6 +30,7 @@ body {
 }
 
 header {
+    background-color: black;
     top: 0;
     width: 100%;
 }
@@ -82,9 +83,16 @@ ul {
     justify-content: center;
     color: var(--color-light-gray);
     text-align: center;
+    background-color: blueviolet;
 }
 
-.hero-container h1 {
+.hero-container {
+    background-image: url(images/hero-image.jpg);
+    height: 90vh;
+    width: 100%;
+}
+
+/*.hero-container h1 {
     font-family: var(--font-cursive);
     font-size: 4rem;
     color: var(--color-grunge-yellow);
@@ -95,4 +103,4 @@ ul {
     font-family: var(--font-sans);
     font-size: 1.25rem;
     color: var(--color-medium-gray)
-}
+}*/
