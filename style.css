@@ -25,6 +25,8 @@ Deep Gray: hsl(353, 6, 28)
     --fw-normal: 400;
     --fw-bold: 600;
 
+    --ff-rock: 'RocknRoll', cursive;
+
     --fs-400: 0.927rem;
     --fs-500: 1.25rem;
     --fs-600: 1.625rem;
@@ -48,6 +50,8 @@ Deep Gray: hsl(353, 6, 28)
 
 body {
     line-height: inherit;
+    font-family: var(--ff-sans);
+    
 }
 
 header {
