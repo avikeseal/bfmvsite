@@ -144,11 +144,12 @@ ul {
     align-items: center;
 }
 
-.hero-container h1 {
+.headline {
+    display: flex;
+    gap: 4rem;
+    text-transform: uppercase;
     font-family: var(--ff-rock);
-    font-size: 4rem;
+    font-size: var(--fs-900);
     color: var(--clr-primaryGY);
-
-
 }
 
