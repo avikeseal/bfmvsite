@@ -115,12 +115,12 @@ function toggleElementOnScroll(elementId, scrollThreshold, scrollStyles, topStyl
 //movement to being the links closer together or float them subtly
 toggleElementOnScroll("nav-links", 10,
     {
-        margin: "0.6rem",
+        margin: "0.4rem",
         transform: "translateY(-5px)",
 
     },
     {
-        margin: "2.5rem",
+        margin: "0.4rem",
         transform: "translateY(8px)",
     }
 );
@@ -130,6 +130,6 @@ toggleElementOnScroll("navbar", 10,
         padding: "1rem",
     },
     {
-        padding: "2rem",
+        padding: "2.7rem",
     }
 );
