@@ -25,7 +25,7 @@ Deep Gray: hsl(353, 6, 28)
     --fw-normal: 400;
     --fw-bold: 600;
 
-    --ff-rock: 'RocknRoll', cursive;
+    --ff-rock: "Michroma", sans-serif;
 
     --fs-400: 0.927rem;
     --fs-500: 1.25rem;
@@ -141,15 +141,10 @@ ul {
     background-size: cover;
 }
 
-/*.hero-container h1 {
-    font-family: var(--font-cursive);
+.hero-container h1 {
+    font-family: var(--ff-rock);
     font-size: 4rem;
-    color: var(--color-grunge-yellow);
+    color: var(--clr-primaryGY);
     margin-bottom: 1rem;
 }
 
-.hero-container p {
-    font-family: var(--font-sans);
-    font-size: 1.25rem;
-    color: var(--color-medium-gray)
-}*/
