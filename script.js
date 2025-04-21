@@ -133,3 +133,9 @@ toggleElementOnScroll("navbar", 10,
         padding: "2.7rem",
     }
 );
+
+const span1 = document.getElementById('scream');
+const span2 = document.getElementById('aim');
+const span3 = document.getElementById('fire');
+
+span1.style.left = '10rem';

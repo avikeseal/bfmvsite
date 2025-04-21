@@ -157,3 +157,7 @@ ul {
     /*transform: translateY(15px)*/ /*avoids unnecessary stacking while scrolling*/
 }
 
+.headline #scream, #aim, #fire {
+    position: relative;
+}
+
