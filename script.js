@@ -134,8 +134,11 @@ toggleElementOnScroll("navbar", 10,
     }
 );
 
+const headline = document.getElementsByClassName('headline');
 const span1 = document.getElementById('scream');
 const span2 = document.getElementById('aim');
 const span3 = document.getElementById('fire');
 
-span1.style.left = '10rem';
+span1.style.right = '5rem';
+span2.style.right = '3rem';
+span3.style.left = '20px';

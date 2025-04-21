@@ -152,7 +152,8 @@ ul {
     gap: 4rem;
     text-transform: uppercase;
     font-family: var(--ff-rock);
-    font-size: var(--fs-1200);
+    font-size: var(--fs-600);
+    font-weight: var(--fw-bold);
     color: var(--clr-primaryGY);
     /*transform: translateY(15px)*/ /*avoids unnecessary stacking while scrolling*/
 }
