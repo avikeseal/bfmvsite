@@ -152,13 +152,11 @@ ul {
     gap: 4rem;
     text-transform: uppercase;
     font-family: var(--ff-rock);
-    font-size: var(--fs-600);
+    font-size: var(--fs-900);
     font-weight: var(--fw-bold);
     color: var(--clr-primaryGY);
+    justify-content: center;
+    align-items: center;
     /*transform: translateY(15px)*/ /*avoids unnecessary stacking while scrolling*/
-}
-
-.headline #scream, #aim, #fire {
-    position: relative;
 }
 
