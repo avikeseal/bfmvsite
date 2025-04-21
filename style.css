@@ -32,6 +32,7 @@ Deep Gray: hsl(353, 6, 28)
     --fs-500: 1.25rem;
     --fs-600: 1.625rem;
     --fs-900: 2.5rem;
+    --fs-1200: 3.5rem;
 
     --clr-neutralLG: hsl(22, 6%, 76%);
     --clr-neutralMG: hsl(17, 4%, 65%);
@@ -151,7 +152,8 @@ ul {
     gap: 4rem;
     text-transform: uppercase;
     font-family: var(--ff-rock);
-    font-size: var(--fs-900);
+    font-size: var(--fs-1200);
     color: var(--clr-primaryGY);
+    /*transform: translateY(15px)*/ /*avoids unnecessary stacking while scrolling*/
 }
 
