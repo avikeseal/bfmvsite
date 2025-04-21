@@ -133,3 +133,12 @@ toggleElementOnScroll("navbar", 10,
         padding: "2.7rem",
     }
 );
+
+toggleElementOnScroll("headline", 310,
+    {
+        display: 'none',
+    },
+    {
+        display: 'flex',
+    }
+);
