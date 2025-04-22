@@ -142,3 +142,16 @@ toggleElementOnScroll("headline", 310,
         display: 'flex',
     }
 );
+
+/*const headline = document.getElementsByClassName('headline');
+const span1 = document.getElementById('scream');
+const span2 = document.getElementById('aim');
+const span3 = document.getElementById('fire');
+
+/*span1.style.right = '5rem';
+span2.style.right = '4rem';
+span3.style.left = '2rem';
+
+span1.style.transform = 'translateX(-6rem)';
+span2.style.transform = 'translateX(0rem)';
+span3.style.transform = 'translateX(6rem)';*/
