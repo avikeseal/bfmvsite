@@ -75,7 +75,7 @@ nav {
 
 .sticky {
     position: fixed;
-    background: red;
+    background: var(--clr-primaryBR);
     transition: 0.2s ease-in;
 }
 

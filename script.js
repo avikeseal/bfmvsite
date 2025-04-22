@@ -134,7 +134,7 @@ toggleElementOnScroll("navbar", 10,
     }
 );
 
-toggleElementOnScroll("headline", 310,
+toggleElementOnScroll("headline", 297,
     {
         display: 'none',
     },
@@ -143,7 +143,7 @@ toggleElementOnScroll("headline", 310,
     }
 );
 
-toggleElementOnScroll("get-tickets", 395,
+toggleElementOnScroll("get-tickets", 388,
     {
         display: 'none',
     },
