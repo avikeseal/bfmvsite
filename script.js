@@ -143,6 +143,15 @@ toggleElementOnScroll("headline", 310,
     }
 );
 
+toggleElementOnScroll("get-tickets", 395,
+    {
+        display: 'none',
+    },
+    {
+        display: 'flex',
+    }
+);
+
 /*const headline = document.getElementsByClassName('headline');
 const span1 = document.getElementById('scream');
 const span2 = document.getElementById('aim');
