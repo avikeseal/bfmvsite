@@ -164,7 +164,12 @@ ul {
 .get-tickets {
     position: relative;
     top: 100px;
-    padding: 9px 50px;
+    padding: 9px 40px;
+    font-family: var(--ff-rock);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-400);
+    background-color: var(--clr-neutralLG);
+    border: 2px solid var(--clr-primaryGY)
 }
 
 
