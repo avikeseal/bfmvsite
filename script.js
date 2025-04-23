@@ -132,7 +132,7 @@ toggleElementOnScroll("nav-links", 10,
 
 toggleElementOnScroll("navbar", 10,
     {
-        padding: "1rem",
+        padding: "0.2rem",
     },
     {
         padding: "2rem",

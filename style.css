@@ -81,7 +81,7 @@ nav {
 
 .sticky .nav__links a:hover {
     color: var(--clr-primaryBlack);
-    transition: 0.7s;
+    transition: 0.5s;
 }
 
 
