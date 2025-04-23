@@ -125,6 +125,11 @@ ul {
     transition: all .7s;
 }
 
+.nav__links a:hover {
+    color: var(--clr-primaryBR);
+    transition: 0.7s;
+}
+
 .nav__links a {
     position: relative;
 }
