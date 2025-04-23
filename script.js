@@ -53,7 +53,12 @@ toggleElementOnScroll("logo", 100);*/
 
 
 
+
+
 toggleElementOnScroll("logo", 10);*/
+
+const rootStyles = getComputedStyle(document.documentElement);
+const primaryBlack = rootStyles.getPropertyValue('--clr-primaryBlack').trim();
 
 //adds an event litener to the window object that listens for when the user 
 //scrolls:

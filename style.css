@@ -79,6 +79,11 @@ nav {
     transition: 0.2s ease-in;
 }
 
+.sticky .nav__links a:hover {
+    color: var(--clr-primaryBlack);
+    transition: 0.7s;
+}
+
 
 ul {
     display: flex;
