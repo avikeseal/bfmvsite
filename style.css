@@ -86,18 +86,25 @@ ul {
     overflow: hidden;
     justify-content: space-between;
     align-items: center;
-    gap: 14rem;
+    gap: 12rem;
     padding: 0;
     margin: 0.4rem;
     transform: translateY(8px);
     font-family: var(--ff-rock);
     font-size: var(--fs-500);
-    font-weight: var(--fw-normal);
+    font-weight: var(--fw-bold);
+}
+
+.nav__links li {
+    display: inline-block;
 }
 
 .nav__links a {
+    display: block;
     text-decoration: none;
     color: var(--clr-neutralLG);
+    padding: 10px;
+    margin: 0 10px;
 }
 
 .nav__links li:nth-child(3) {
@@ -106,6 +113,37 @@ ul {
 
 .nav__links li:nth-child(2) {
     margin-left: 4.3rem;
+}
+
+.nav__links a {
+    position: relative;
+}
+
+
+.nav__links a:after,
+.nav__links a:before {
+    transition: all .7s;
+}
+
+.nav__links a {
+    position: relative;
+}
+
+.nav__links a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 4;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: var(--clr-primaryBR);
+    height: 2.3px;
+}
+
+.nav__links a:hover:after {
+    width: 100%;
 }
 
 #logo {
