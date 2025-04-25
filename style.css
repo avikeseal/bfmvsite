@@ -201,7 +201,7 @@ ul {
     gap: 4rem;
     text-transform: uppercase;
     font-family: var(--ff-rock);
-    font-size: var(--fs-900);
+    font-size: var(--fs-1200);
     font-weight: var(--fw-bold);
     color: var(--clr-primaryGY);
     justify-content: center;
@@ -215,7 +215,7 @@ ul {
     padding: 9px 40px;
     font-family: var(--ff-rock);
     font-weight: var(--fw-bold);
-    font-size: var(--fs-400);
+    font-size: var(--fs-500);
     background-color: var(--clr-neutralLG);
     border: 2px solid var(--clr-primaryGY);
     border-radius: 0px;
