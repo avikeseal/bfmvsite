@@ -180,7 +180,7 @@ ul {
     justify-content: center;
     color: var(--color-light-gray);
     text-align: center;
-    background-color: blueviolet;
+    background-color: var(--clr-neutralLG);
 }
 
 .hero-container {
@@ -230,5 +230,40 @@ ul {
 .get-tickets:hover {
     box-shadow: inset 400px 0 0 0 var(--clr-primaryBR);
 }
+
+/*tour dates section*/
+.tour-dates {
+    font-size: 30px;
+    color: var(--clr-primaryGY);
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+.tbl-header {
+    background-color: var(--clr-primaryBR);
+}
+.tbl-content{
+    height: 300px;
+    overflow-x: auto;
+    margin-top: 0px;
+    border: 1px solid var(--clr-primaryBlack);
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
 
 
