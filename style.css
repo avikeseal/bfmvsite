@@ -251,7 +251,7 @@ table {
 }
 .tbl-content{
     height: 300px;
-    overflow-x: auto;
+    overflow-y: scroll;
     margin-top: 0px;
     border: 1px solid var(--clr-primaryBlack);
 }
