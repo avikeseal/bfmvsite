@@ -233,10 +233,11 @@ ul {
 
 /*tour dates section*/
 .tour-dates {
-    font-size: 30px;
+    font-size: 50px;
     color: var(--clr-primaryGY);
     text-transform: uppercase;
     font-weight: 500;
+    font-size: var(--fs-1200);
     text-align: center;
     margin-bottom: 15px;
 }
@@ -256,12 +257,22 @@ table {
 }
 
 th {
-    padding: 20px 15px;
-    text-align: left;
-    font-weight: 500;
-    font-size: 12px;
-    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-600);
+    color: var(--clr-neutralLG);
     text-transform: uppercase;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-500);
+    color: var(--clr-primaryBlack);
+    border-bottom: solid 1px;
 }
 
 
