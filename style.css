@@ -74,9 +74,10 @@ nav {
 }
 
 .sticky {
-    position: fixed;
     background: var(--clr-primaryBR);
     transition: 0.2s ease-in;
+    position: fixed;
+    z-index: 10;
 }
 
 .sticky .nav__links a:hover {
@@ -174,6 +175,7 @@ ul {
 }
 
 .section-wrapper {
+    z-index: -1;
     height: 90vh;
     display: flex;
     align-items: center;
