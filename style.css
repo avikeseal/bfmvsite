@@ -233,6 +233,9 @@ ul {
 
 /*tour dates section*/
 .tour-dates {
+    position: relative;
+    top: 20px;
+    font-family: var(--ff-rock);
     font-size: 50px;
     color: var(--clr-primaryGY);
     text-transform: uppercase;
@@ -248,12 +251,13 @@ table {
 }
 
 .tbl-header {
+    position: relative;
+    top: 35px;
     padding-bottom: 5px;
     margin: 2rem;
     background-color: var(--clr-primaryBR);
 }
 .tbl-content{
-    top: 13px;
     margin: 2rem;
     height: 300px;
     overflow-y: scroll;
