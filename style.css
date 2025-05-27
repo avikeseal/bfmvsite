@@ -304,9 +304,9 @@ td {
 
 /*albums-section*/
 .cd-case {
-    height: 206px;
-    width: 230px;
-    margin: 20px 0px 15px 35px;
+    height: 500px;
+    width: 598px;
+    margin: 20px auto;
     display: inline-block;
     border-radius: 3px;
     background: #111;
@@ -320,8 +320,8 @@ td {
 }
 
 .album-art {
-    height: 200px;
-    width: 200px;
+    height: 485px;
+    width: 540px;
     border-radius: 3px;
     background: red;
     box-shadow: 0px 0px 5px 1px
@@ -329,8 +329,9 @@ td {
     rgba(0,0,0,0.1), inset 0px 0px 0px 1px
     rgba(255, 255, 255, 0.3);
     position: relative;
-    top: 3px;
-    left: 25px;
+    top: 6px;
+    left: 30px;
+    margin-left: 20px;
 }
 
 #case .album-art{
@@ -345,8 +346,8 @@ td {
 
 
 .sup {
-    height: 10px;
-    width: 20px;
+    height: 15px;
+    width: 30px;
     background: rgba(255,255,255,0.15);
     box-shadow: inset 0px 0px 6px 1px
     rgba(0,0,0,0.22), inset 0px 0px 1px 1px
@@ -356,30 +357,30 @@ td {
 .pos-tl {
     position: relative;
     top: 0;
-    left: 20px;
+    left: 35px;
     border-radius: 0 0 5px 5px;
 }
 .pos-tr {
     position: relative;
-    top: -10px;
-    left: 160px;
+    top: -15px;
+    left: 500px;
     border-radius: 0 0 5px 5px;
 }
 .pos-bl {
     position: relative;
-    top: 169px;
-    left: 20px;
+    top: 440px;
+    left: 35px;
     border-radius: 5px 5px 0 0;
 }
 .pos-br {
     position: relative;
-    top: 159px;
-    left: 160px;
+    top: 425px;
+    left: 500px;
     border-radius: 5px 5px 0 0;
 }
 .spine {
-    height: 120px;
-    width: 15px;
+    height: 320px;
+    width: 25px;
     background: linear-gradient(rgba(255,255,255,0.2)
     0%, rgba(255,255,255,0.07) 100%);
     /*background: -webkit-linear-gradient(rgba(255,255,255,0.2))
@@ -389,8 +390,8 @@ td {
     rgba(0,0,0,0.22), inset 0px 0px 0px 1px
     rgba(255, 255, 255, 0.22);
     position: relative;
-    top: -160px;
-    left: 0;
+    top: -390px;
+    left: 0px;
     border-radius: 0 50% 50% 0;
 }
 
