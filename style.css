@@ -315,6 +315,7 @@ td {
 }
 .cd-case {
     position: absolute;
+    left: 40px;
     height: 500px;
     width: 598px;
     margin: 20px auto;
