@@ -303,7 +303,18 @@ td {
 }
 
 /*albums-section*/
+.album-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-light-gray);
+    text-align: center;
+    position: relative;
+}
 .cd-case {
+    position: absolute;
     height: 500px;
     width: 598px;
     margin: 20px auto;
