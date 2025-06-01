@@ -304,6 +304,7 @@ td {
 
 /*albums-section*/
 .album-container {
+    top: 30px;
     height: 90vh;
     width: 100%;
     display: flex;
@@ -315,6 +316,7 @@ td {
 }
 .cd-case {
     position: absolute;
+    top: 40px;
     left: 40px;
     height: 500px;
     width: 598px;
